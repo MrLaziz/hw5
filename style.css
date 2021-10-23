@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Oswald:wght@200;500&display=swap');
+
+html{
+    background-color: rgba(238, 238, 238, 0.144);
+}
+
+h1{
+    font-size: 38px;
+    color: #2743e2;
+}
+
+p{
+    color: #d1273e;
+}
+
+h2{
+    color: #000000;
+    font-size: 32px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(235, 235, 235);
+    height: 60px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 8px
+}
+
+li{
+    font-family: 'Cairo', sans-serif;
+    font-size: 18px;
+    margin: 20px
+}
+
+.btn_nav{
+    padding: 5px 40px 5px 40px;
+    background-color: rgb(79, 79, 241);
+    color: white;
+    border-radius: 30px;
+    border:1px solid black;
+}
+
+li:hover{
+    color: rgb(57, 57, 228);
+}
+
+.img_boss{
+    display: flex;
+    width: 1000px;
+    align-items: center;
+}
+
+.img-section{
+    height: 400px;
+}
+
+.leader{
+    text-align: center;
+    align-items: center;
+}
+
+.leader_text{
+    text-align: center;
+}
+
+.img_bape{
+    margin-left: 150px;
+}
+
+.img_boss2{
+    display: flex;
+    width: 500px;
+    align-items: center;
+}
+.img_bap{
+    height: 250px;
+    margin: 30px;
+}
+
+.img_bap02{
+    height: 440px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.footer{
+    margin: auto;
+}
